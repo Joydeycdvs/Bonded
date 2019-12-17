@@ -32,8 +32,38 @@
             margin: 0;
         }
 
+        #container2 {
+            margin-top: 10px;
+            padding: 0;
+        }
+
         #prompt {
             background-color: #eaeaea;
+        }
+
+        .dots {
+            color: #ff3547;
+            height: 3px;
+            border-width: 0 0 3px;
+            border-style: solid;
+            border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="#{$color}" cx="1" cy="0.5" r="0.5"/></svg>') 0 0 100% repeat;
+            width: 150px;
+        }
+
+        .btn-rounded {
+            border-radius: 10em;
+        }
+
+        .streak {
+            position: relative;
+            display: block;
+            height: 250px;
+            overflow: hidden;
+            padding: 3rem;
+        }
+
+        .p-1 {
+            margin: 0.25rem !important;
         }
     </style>
 
@@ -110,7 +140,6 @@
                 <h4 class="card-title h4 my-4 py-2">DONATE BLOOD, SAVE LIFE!</h4>
                 <h1 class="mb-4 pb-2 px-md-5 mx-md-5">DONATE YOUR BLOOD AND INSPIRE<br>OTHERS TO DONATE.</h1>
                 <a class="btn btn-danger">JOIN WITH US <i class="fas fa-arrow-right"></i></a>
-
             </div>
         </div>
     </div>
@@ -128,7 +157,262 @@
         </div>
     </div>
 
+
+    <div class="container-fluid" id="container2">
+
+        <!-- jumbotron -->
+        <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+                <h3 class="display-4">DONATION PROCESS</h3>
+                <hr class="dots">
+                <p class="lead">The donation process from the time you arrive at center until the time you leave</p>
+            </div>
+        </div>
+        <!-- jumbotron -->
+        <div class="container-fluid">
+            <!-- Card deck -->
+            <div class="card-deck">
+
+                <!-- Card -->
+                <div class="card mb-3">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="images/registration.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title">REGISTRATION</h4>
+                        <!--Text-->
+                        <p class="card-text">You need to complete a very simple registration form which contatins all
+                            required contact information to enter in the donation process.</p>
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+                <!-- Card -->
+                <div class="card mb-3">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="images/bloodcheck.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title">SCREENING</h4>
+                        <!--Text-->
+                        <p class="card-text">A drop of blood from your finger will be taken for a simple test to ensure
+                            that your blood levels are proper enough for donation.</p>
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+                <!-- Card -->
+                <div class="card mb-3">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="images/donation.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title">DONATION</h4>
+                        <!--Text-->
+                        <p class="card-text">After passing screening test successfully you will be directed to a donor
+                            bed for donation. It will take only 6-10 minutes.</p>
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+                <!-- Card -->
+                <div class="card mb-3">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="images/Refreshment.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title">REFRESHMENT</h4>
+                        <!--Text-->
+                        <p class="card-text">you can also stay in the sitting room until you feel strong enough to leave
+                            the center. You will receive refreshments in the donation zone</p>
+                    </div>
+
+                </div>
+                <!-- Card -->
+
+            </div>
+            <!-- Card deck -->
+        </div>
+
     </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+
+                <!-- <img src="images/quote2.jpg" alt="" srcset="" class="img-fluid"> -->
+                <section class="p-1">
+                    <div class="streak grey lighten-3">
+                        <div class="flex-center">
+                            <ul class="mb-0 list-unstyled">
+                                <li>
+                                    <h2 class="h2-responsive"><i class="fas fa-quote-left" aria-hidden="true"></i> A single pint can save three lives. A single gesture can create a million smiles. <i
+                                            class="fas fa-quote-right" aria-hidden="true"></i></h2>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="p-1">
+                    <div class="streak  lighten-3">
+                        <div class="flex-center">
+                            <ul class="mb-0 list-unstyled">
+                                <li>
+                                    <h2 class="h2-responsive"><i class="fas fa-quote-left" aria-hidden="true"></i> Bring a life back to power. Make blood donation your responsibility <i
+                                            class="fas fa-quote-right" aria-hidden="true"></i></h2>
+                                </li>
+                                <li class="mb-0">
+                                    <h5 class="text-center font-italic mb-0">~ American Red Cross</h5>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <!-- Material form register -->
+                <div class="card">
+
+                    <h5 class="card-header danger-color white-text text-center py-4">
+                        <strong>REQUEST APPOINTMENT</strong>
+                    </h5>
+
+                    <!--Card content-->
+                    <div class="card-body px-lg-5 pt-0">
+
+                        <!-- Form -->
+                        <form class="text-center" style="color: #757575;" action="#!">
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <!-- First name -->
+                                    <div class="md-form">
+                                        <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                                        <label for="materialRegisterFormFirstName">First name</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Last name -->
+                                    <div class="md-form">
+                                        <input type="email" id="materialRegisterFormLastName" class="form-control">
+                                        <label for="materialRegisterFormLastName">Last name</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <!-- Email -->
+                                    <div class="md-form">
+                                        <input type="email" id="materialRegisterFormEmail" class="form-control">
+                                        <label for="materialRegisterFormEmail">E-mail</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Phone Number -->
+                                    <div class="md-form">
+                                        <input type="password" id="materialRegisterFormPhone" class="form-control"
+                                            aria-describedby="materialRegisterFormPhoneHelpBlock">
+                                        <label for="materialRegisterFormPhone">Phone number</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <!-- Date -->
+                                    <div class="md-form">
+                                        <input type="date" id="materialRegisterFormDate" class="form-control">
+                                        <label for="materialRegisterFormEmail">Date</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Time -->
+                                    <div class="md-form">
+                                        <input type="time" id="materialRegisterFormTime" class="form-control"
+                                            aria-describedby="materialRegisterFormPhoneHelpBlock">
+                                        <label for="materialRegisterFormPhone">Time</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="md-form">
+                                <textarea id="materialContactFormMessage" class="form-control md-textarea"
+                                    rows="3"></textarea>
+                                <label for="materialContactFormMessage">Message</label>
+                            </div>
+
+                            <!-- Sign up button -->
+                            <button class="btn btn-danger btn-rounded btn-block my-4 waves-effect z-depth-0"
+                                type="submit">GET APPOINTMENT</button>
+
+                        </form>
+                        <!-- Form -->
+
+                    </div>
+
+                </div>
+                <!-- Material form register -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="container2">
+        <!-- Jumbotron -->
+        <div class="jumbotron text-center grey darken-3 white-text mx-2 mb-5">
+
+            <!-- Title -->
+            <h2 class="card-title h2">JOIN WITH US AND SAVE LIFE</h2>
+
+            <div class="pt-2">
+                <button type="button" class="btn btn-danger btn-rounded">BECOME A VOLUNTEER</button>
+              </div>
+
+            <hr class="my-4 rgba-white-light">
+        </div>
+        <!-- Jumbotron -->
+    </div>
+
 
     <!-- Footer -->
     <footer class="page-footer font-small danger-color pt-4">
@@ -155,7 +439,7 @@
                 <div class="col-md-3 mb-md-0 mb-3">
 
                     <!-- Links -->
-                    <h5 class="text-uppercase">Links</h5>
+                    <h5 class="text-uppercase">Contact Us</h5>
 
                     <ul class="list-unstyled">
                         <li>
@@ -179,7 +463,7 @@
                 <div class="col-md-3 mb-md-0 mb-3">
 
                     <!-- Links -->
-                    <h5 class="text-uppercase">Links</h5>
+                    <h5 class="text-uppercase">Support Links</h5>
 
                     <ul class="list-unstyled">
                         <li>
@@ -207,7 +491,7 @@
 
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2019 Copyright:
-            <a href="index.html"> Bonded</a>
+            <a href="index.html"> Bonded</a> All Rights Reserved
         </div>
         <!-- Copyright -->
 
