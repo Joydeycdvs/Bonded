@@ -24,50 +24,9 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
     <!-- favicon -->
     <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style-min.css">
     <title>Bonded</title>
-
-    <style>
-        #container {
-            padding: 0;
-            margin: 0;
-        }
-
-        #container2 {
-            margin-top: 10px;
-            padding: 0;
-        }
-
-        #prompt {
-            background-color: #eaeaea;
-        }
-
-        .dots {
-            color: #ff3547;
-            height: 3px;
-            border-width: 0 0 3px;
-            border-style: solid;
-            border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="#{$color}" cx="1" cy="0.5" r="0.5"/></svg>') 0 0 100% repeat;
-            width: 150px;
-        }
-
-        .btn-rounded {
-            border-radius: 10em;
-        }
-
-        .streak {
-            position: relative;
-            display: block;
-            height: 250px;
-            overflow: hidden;
-            padding: 3rem;
-        }
-
-        .p-1 {
-            margin: 0.25rem !important;
-        }
-    </style>
-
-
 </head>
 
 <body>
@@ -132,7 +91,8 @@
     <!--/.Navbar -->
 
     <!-- Jumbotron -->
-    <div class="card card-image" style="background-image: url('images/blooddonate.jpg'); background-size: cover;">
+    <div class="card card-image img-fluid"
+        style="background-image: url('images/blooddonate.jpg'); background-size: cover;">
         <div class="text-white text-center rgba-stylish-strong py-5 px-4">
             <div class="py-5">
 
@@ -169,7 +129,7 @@
             </div>
         </div>
         <!-- jumbotron -->
-        <div class="container-fluid">
+        <div class="container-fluid mb-5">
             <!-- Card deck -->
             <div class="card-deck">
 
@@ -272,10 +232,9 @@
             </div>
             <!-- Card deck -->
         </div>
-
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid mb-5">
         <div class="row">
             <div class="col-sm-6 col-md-6">
 
@@ -285,10 +244,11 @@
                         <div class="flex-center">
                             <ul class="mb-0 list-unstyled">
                                 <li>
-                                    <h2 class="h2-responsive"><i class="fas fa-quote-left" aria-hidden="true"></i> A single pint can save three lives. A single gesture can create a million smiles. <i
-                                            class="fas fa-quote-right" aria-hidden="true"></i></h2>
+                                    <h2 class="h2-responsive"><i class="fas fa-quote-left" aria-hidden="true"></i> A
+                                        single pint can save three lives. A single gesture can create a million smiles.
+                                        <i class="fas fa-quote-right" aria-hidden="true"></i></h2>
                                 </li>
-                                
+
                             </ul>
                         </div>
                     </div>
@@ -298,7 +258,8 @@
                         <div class="flex-center">
                             <ul class="mb-0 list-unstyled">
                                 <li>
-                                    <h2 class="h2-responsive"><i class="fas fa-quote-left" aria-hidden="true"></i> Bring a life back to power. Make blood donation your responsibility <i
+                                    <h2 class="h2-responsive"><i class="fas fa-quote-left" aria-hidden="true"></i> Bring
+                                        a life back to power. Make blood donation your responsibility <i
                                             class="fas fa-quote-right" aria-hidden="true"></i></h2>
                                 </li>
                                 <li class="mb-0">
@@ -397,6 +358,96 @@
         </div>
     </div>
 
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h3 class="display-4">OUR VOLUNTEERS</h3>
+            <hr class="dots">
+            <p class="lead">The volunteers who give their talent and time to fulfill the mission.</p>
+        </div>
+    </div>
+    <!-- jumbotron -->
+    <div class="container-fluid mb-5" id="container2">
+        <div class="container">
+            <!-- Card deck -->
+            <div class="card-deck">
+                 <!-- Card Narrower -->
+                 <div class="card card-cascade narrower mb-6">
+
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top"
+                            src="https://mdbootstrap.com/img/Photos/Others/men.jpg"
+                            alt="Card image cap">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center">
+
+                        <!-- Title -->
+                        <h4 class="card-title"><strong>Joy Dey</strong></h4>
+                        <!-- Subtitle -->
+                        <h6 class="font-weight-bold indigo-text py-2">Web developer</h6>
+                        <!-- Text -->
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex,
+                            recusandae. Facere modi sunt, quod quibusdam.
+                        </p>
+
+                        <!-- Facebook -->
+                        <a type="button" class="btn-floating btn-small btn-fb"><i class="fab fa-facebook-f"></i></a>
+                        <!-- Twitter -->
+                        <a type="button" class="btn-floating btn-small btn-tw"><i class="fab fa-twitter"></i></a>
+                        <!-- Google + -->
+                        <a type="button" class="btn-floating btn-small btn-instagram"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <!-- Card Narrower -->
+
+                <!-- Card Narrower -->
+                <div class="card card-cascade narrower mb-6">
+
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top"
+                            src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg"
+                            alt="Card image cap">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center">
+
+                        <!-- Title -->
+                        <h4 class="card-title"><strong>Kalyanjit Das</strong></h4>
+                        <!-- Subtitle -->
+                        <h6 class="font-weight-bold indigo-text py-2">Web developer</h6>
+                        <!-- Text -->
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex,
+                            recusandae. Facere modi sunt, quod quibusdam.
+                        </p>
+
+                        <!-- Facebook -->
+                        <a type="button" class="btn-floating btn-small btn-fb"><i class="fab fa-facebook-f"></i></a>
+                        <!-- Twitter -->
+                        <a type="button" class="btn-floating btn-small btn-tw"><i class="fab fa-twitter"></i></a>
+                        <!-- Google + -->
+                        <a type="button" class="btn-floating btn-small btn-instagram"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <!-- Card Narrower -->
+
+            </div>
+            <!-- Card deck -->
+        </div>
+    </div>
+
     <div class="container-fluid" id="container2">
         <!-- Jumbotron -->
         <div class="jumbotron text-center grey darken-3 white-text mx-2 mb-5">
@@ -406,7 +457,7 @@
 
             <div class="pt-2">
                 <button type="button" class="btn btn-danger btn-rounded">BECOME A VOLUNTEER</button>
-              </div>
+            </div>
 
             <hr class="my-4 rgba-white-light">
         </div>
@@ -427,8 +478,11 @@
                 <div class="col-md-6 mt-md-0 mt-3">
 
                     <!-- Content -->
-                    <h5 class="text-uppercase">Footer Content</h5>
-                    <p>Here you can use rows and columns to organize your footer content.</p>
+                    <h5 class="text-uppercase">Lets make all Bonded</h5>
+                    <p>Bonded is a web based blood Donation platform which connects thousands of blood donors in three
+                        simple steps. Bonded ensures hassle free blood donation and privacy of a blood donor. A blood
+                        donor can select any specific date and location to donate blood and find a suitable person who
+                        needs blood. </p>
 
                 </div>
                 <!-- Grid column -->
@@ -443,16 +497,14 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!">Link 1</a>
+                            <a href="mailto:webmetry@post.com"><i
+                                    class="fas fa-envelope-open mr-3"></i>webmetry@post.com</a>
                         </li>
                         <li>
-                            <a href="#!">Link 2</a>
+                            <a href="#!"><i class="fas fa-location-arrow mr-3"></i>Agartala,Tripura 799130</a>
                         </li>
                         <li>
-                            <a href="#!">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 4</a>
+                            <a href="#!"><i class="fas fa-tty mr-3"></i>+91-123-456-7890</a>
                         </li>
                     </ul>
 
@@ -476,7 +528,7 @@
                             <a href="#!">Link 3</a>
                         </li>
                         <li>
-                            <a href="#!">Link 4</a>
+                            <a href="#!">Credits</a>
                         </li>
                     </ul>
 
@@ -485,6 +537,47 @@
 
             </div>
             <!-- Grid row -->
+
+        </div>
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+                            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
 
         </div>
         <!-- Footer Links -->
